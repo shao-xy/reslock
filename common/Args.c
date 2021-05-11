@@ -86,6 +86,6 @@ void show_config(Args * args)
 	fprintf(stdout, "\n");
 	fprintf(stdout, "Shared: %s\n", args->shared ? "yes": "no");
 	fprintf(stdout, "Wait:   %s\n", args->shared ? "yes": "no");
-	fprintf(stdout, "=== Configuration End ===\n");
+	fprintf(stdout, "=== Configuration End ===\n\n");
 }
 
